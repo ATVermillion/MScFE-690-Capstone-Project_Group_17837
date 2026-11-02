@@ -1,0 +1,7 @@
+,Stressed -> Stressed,Stressed -> Trending,Trending -> Stressed,Trending -> Trending,TOTAL
+Return-based: oracle,66.128,0.0,121.909,0.0,188.037
+40-week rule,54.071,-75.153,26.828,-27.515,-21.769
+Return-based: smoothed XGBoost,57.696,-82.799,59.584,-47.19,-12.709
+Slow/fast blend,56.252,-76.039,38.83,-50.886,-31.844
+Return-based: persistence,66.128,-102.397,0.0,0.0,-36.269
+Return-based: XGBoost,60.705,-100.049,48.408,-48.499,-39.436

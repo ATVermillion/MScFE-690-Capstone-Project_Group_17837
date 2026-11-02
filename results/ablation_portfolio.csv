@@ -1,0 +1,33 @@
+labeller,signal,Sharpe,Ann. return,Max drawdown,"Turnover (ann., one-way)",CI
+"Autoencoder, seed 42 (main)",XGBoost,0.9904,0.2139,-0.4208,2.6427,
+"Autoencoder, seed 42 (main)",Persistence,1.1041,0.237,-0.3724,2.3694,
+"Autoencoder, seed 42 (main)",Oracle,1.6719,0.3702,-0.1923,2.5747,
+"Autoencoder, seed 42 (main)",XGBoost minus 40w rule (ann. return),,-0.0326,,,"[-0.068, -0.001]"
+"Autoencoder, seed 1",XGBoost,1.0426,0.2418,-0.3536,3.0068,
+"Autoencoder, seed 1",Persistence,0.9993,0.2339,-0.3481,2.3805,
+"Autoencoder, seed 1",Oracle,1.3717,0.3289,-0.351,2.5037,
+"Autoencoder, seed 1",XGBoost minus 40w rule (ann. return),,-0.0069,,,"[-0.064, +0.051]"
+"Autoencoder, seed 2",XGBoost,1.0143,0.2281,-0.3583,3.1176,
+"Autoencoder, seed 2",Persistence,0.9621,0.2081,-0.399,3.5079,
+"Autoencoder, seed 2",Oracle,1.8694,0.4317,-0.1608,3.7207,
+"Autoencoder, seed 2",XGBoost minus 40w rule (ann. return),,-0.0194,,,"[-0.067, +0.027]"
+"Autoencoder, seed 3",XGBoost,1.045,0.2349,-0.3554,1.9786,
+"Autoencoder, seed 3",Persistence,1.0524,0.2282,-0.385,2.5823,
+"Autoencoder, seed 3",Oracle,1.7537,0.3879,-0.1626,2.7128,
+"Autoencoder, seed 3",XGBoost minus 40w rule (ann. return),,-0.0139,,,"[-0.052, +0.024]"
+"Autoencoder, seed 4",XGBoost,1.0169,0.2288,-0.3843,1.9459,
+"Autoencoder, seed 4",Persistence,1.019,0.2253,-0.3863,2.0602,
+"Autoencoder, seed 4",Oracle,1.4161,0.311,-0.3037,2.0856,
+"Autoencoder, seed 4",XGBoost minus 40w rule (ann. return),,-0.0187,,,"[-0.061, +0.021]"
+k-means on 8 features,XGBoost,1.1018,0.2399,-0.3448,2.2242,
+k-means on 8 features,Persistence,1.046,0.2201,-0.3605,2.5671,
+k-means on 8 features,Oracle,1.7295,0.377,-0.1922,2.7247,
+k-means on 8 features,XGBoost minus 40w rule (ann. return),,-0.0113,,,"[-0.039, +0.014]"
+k-means on 3 PCA factors,XGBoost,1.1018,0.2399,-0.3448,2.2242,
+k-means on 3 PCA factors,Persistence,1.046,0.2201,-0.3605,2.5671,
+k-means on 3 PCA factors,Oracle,1.7295,0.377,-0.1922,2.7247,
+k-means on 3 PCA factors,XGBoost minus 40w rule (ann. return),,-0.0113,,,"[-0.039, +0.014]"
+2-state Gaussian HMM (filtered),XGBoost,1.0298,0.207,-0.3168,2.3279,
+2-state Gaussian HMM (filtered),Persistence,0.8466,0.1598,-0.3032,2.1702,
+2-state Gaussian HMM (filtered),Oracle,1.5962,0.2913,-0.2351,2.4181,
+2-state Gaussian HMM (filtered),XGBoost minus 40w rule (ann. return),,-0.0411,,,"[-0.080, -0.006]"

@@ -1,0 +1,7 @@
+,Stressed -> Stressed,Stressed -> Trending,Trending -> Stressed,Trending -> Trending,TOTAL
+Autoencoder: oracle,42.825,0.0,103.592,0.0,146.417
+40-week rule,36.761,-53.622,35.066,-39.974,-21.769
+Autoencoder: smoothed XGBoost,39.832,-65.435,37.781,-30.542,-18.363
+Slow/fast blend,38.403,-55.355,44.659,-59.551,-31.844
+Autoencoder: persistence,42.825,-74.352,0.0,0.0,-31.527
+Autoencoder: XGBoost,39.019,-72.99,37.137,-43.113,-39.947

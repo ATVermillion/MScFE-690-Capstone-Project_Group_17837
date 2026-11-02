@@ -1,0 +1,7 @@
+,Stressed -> Stressed,Stressed -> Trending,Trending -> Stressed,Trending -> Trending,TOTAL
+Oracle,7.098,0.0,32.235,0.0,39.333
+40-week rule,2.266,-27.104,8.915,-7.452,-23.375
+Smoothed XGBoost (6.15),-8.98,-18.551,2.972,-5.838,-30.396
+Slow/fast blend,9.863,-33.677,10.816,-24.615,-37.612
+Persistence,7.098,-43.677,0.0,0.0,-36.579
+XGBoost (main),-2.935,-42.36,1.994,-6.711,-50.012

@@ -1,0 +1,3 @@
+best strategy vs rule,trials,information ratio (ann.),expected max IR under no skill (ann.),deflated IR (prob. of true IR > benchmark)
+Jump model + smoothed XGBoost,18,-0.06724816908255253,0.5434974542207611,0.045863075074936414
+Jump model + smoothed XGBoost,36,-0.06724816908255253,0.6295889825132366,0.02717268280460993

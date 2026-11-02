@@ -1,0 +1,6 @@
+strategy,Ann. return,Ann. vol,Sharpe,Max drawdown,"Turnover (ann., one-way)",avg defensive weight
+XGBoost (causal labels),0.214,0.186,0.99,-0.421,2.643,0.161
+XGBoost probability-weighted,0.227,0.187,1.043,-0.367,2.482,0.156
+Persistence (causal labels),0.237,0.183,1.104,-0.372,2.369,0.179
+Rule: SPY below 40w MA,0.255,0.182,1.188,-0.313,1.276,0.191
+Oracle (next week's label known),0.37,0.182,1.672,-0.192,2.575,0.176

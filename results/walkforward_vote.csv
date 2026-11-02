@@ -1,0 +1,5 @@
+strategy,Ann. return,Ann. vol,Sharpe,Max drawdown,"Turnover (ann., one-way)",% defensive
+"Majority vote (XGBoost, 40w rule, HMM)",0.227,0.178,1.086,-0.317,2.119,0.221
+XGBoost (causal labels),0.214,0.186,0.99,-0.421,2.643,0.161
+Rule: SPY below 40w MA,0.255,0.182,1.188,-0.313,1.276,0.191
+HMM state (filtered),0.16,0.157,0.847,-0.303,2.17,0.424

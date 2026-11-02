@@ -1,0 +1,5 @@
+strategy,Ann. return,Ann. vol,Sharpe,Max drawdown,"Turnover (ann., one-way)",% defensive
+Slow/fast blend,0.2313,0.1741,1.1257,-0.2946,3.3954,0.2543
+Rule: SPY below 40w MA (slow),0.2549,0.1822,1.1877,-0.3127,1.276,0.1911
+Fast rule: 4w return < 0,0.2023,0.1744,0.9866,-0.2934,5.6947,0.3176
+XGBoost (causal labels),0.2139,0.1856,0.9904,-0.4208,2.6427,0.1613

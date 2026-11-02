@@ -1,0 +1,9 @@
+strategy,Ann. return,Ann. vol,Sharpe,Max drawdown,Switches,"Turnover (ann., one-way)",% defensive
+XGBoost (causal labels),0.214,0.186,0.99,-0.421,41,2.643,0.161
+Persistence (causal labels),0.237,0.183,1.104,-0.372,37,2.369,0.179
+XGBoost (fixed labels),0.244,0.184,1.132,-0.38,47,3.057,0.179
+Persistence (fixed labels),0.244,0.183,1.134,-0.315,43,2.737,0.174
+Rule: SPY below 40w MA,0.255,0.182,1.188,-0.313,19,1.276,0.191
+Static 50% SPY + 50% Aggr.,0.289,0.227,1.113,-0.362,0,0.039,
+Static 50/25/25 blend,0.222,0.177,1.069,-0.329,0,0.03,
+SPY buy-and-hold,0.172,0.181,0.817,-0.318,0,0.0,

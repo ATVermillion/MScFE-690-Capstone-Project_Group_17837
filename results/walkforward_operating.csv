@@ -1,0 +1,4 @@
+signal,BalAcc,Precision,Recall,Signals Stressed,Weeks differing from regime_now,Entries caught,Exits caught
+XGBoost at break-even threshold,0.77,0.662,0.606,65,19,1,2
+Persistence (0/1),0.845,0.736,0.746,72,0,0,0
+Rule: SPY below 40w MA,0.837,0.688,0.746,77,31,6,7

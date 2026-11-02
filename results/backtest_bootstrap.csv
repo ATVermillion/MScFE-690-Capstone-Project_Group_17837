@@ -1,0 +1,9 @@
+split,strategy,vs,ann. return diff,95% CI low,95% CI high
+Validation,Logit,Static 50% SPY + 50% Aggr.,-0.009,-0.041,0.012
+Validation,Logit,Static 50/25/25 blend,0.081,0.002,0.16
+Validation,XGBoost,Static 50% SPY + 50% Aggr.,-0.023,-0.063,0.0
+Validation,XGBoost,Static 50/25/25 blend,0.067,-0.018,0.153
+Test,Logit,Static 50% SPY + 50% Aggr.,-0.002,-0.123,0.115
+Test,Logit,Static 50/25/25 blend,0.042,-0.043,0.146
+Test,XGBoost,Static 50% SPY + 50% Aggr.,-0.015,-0.154,0.116
+Test,XGBoost,Static 50/25/25 blend,0.029,-0.055,0.122

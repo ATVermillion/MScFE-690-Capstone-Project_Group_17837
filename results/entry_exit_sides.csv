@@ -1,0 +1,13 @@
+side,model,weeks,events,log-loss,Brier,AUC,events acted on
+entry (now Trending),Base rate,331,18,0.219,0.052,0.376,0
+entry (now Trending),Logistic,331,18,0.185,0.055,0.875,5
+entry (now Trending),XGBoost,331,18,0.201,0.057,0.808,2
+entry (now Trending),40w rule,331,18,0.193,0.048,0.62,0
+entry (now Trending),Chosen each year,331,18,0.204,0.055,0.75,2
+entry (now Trending),Single XGBoost (6.9b),331,18,0.174,0.048,0.833,1
+exit (now Stressed),Base rate,72,19,0.603,0.206,0.443,0
+exit (now Stressed),Logistic,72,19,0.551,0.198,0.711,5
+exit (now Stressed),XGBoost,72,19,0.7,0.252,0.621,4
+exit (now Stressed),40w rule,72,19,0.625,0.191,0.693,0
+exit (now Stressed),Chosen each year,72,19,0.776,0.257,0.603,2
+exit (now Stressed),Single XGBoost (6.9b),72,19,0.773,0.266,0.596,2

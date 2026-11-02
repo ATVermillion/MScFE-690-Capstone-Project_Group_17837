@@ -1,0 +1,29 @@
+split,execution,strategy,Ann. return,Ann. vol,Sharpe,Max drawdown,Switches,"Turnover (ann., one-way)",% defensive
+Validation,Fri close,XGBoost forecast,0.376,0.178,1.597,-0.106,4,1.222,0.036
+Validation,Fri close,Logit forecast,0.399,0.179,1.685,-0.085,2,0.619,0.024
+Validation,Fri close,Rule: SPY below 40w MA,0.399,0.179,1.685,-0.085,2,0.619,0.024
+Validation,Fri close,Rule: 13w vol above cut-off,0.411,0.186,1.674,-0.103,0,0.0,0.0
+Validation,Fri close,Static 50% SPY + 50% Aggr.,0.411,0.186,1.674,-0.103,0,,
+Validation,Fri close,Static 50/25/25 blend,0.3,0.139,1.592,-0.092,0,,
+Validation,Fri close,SPY buy-and-hold,0.242,0.128,1.363,-0.098,0,,
+Validation,Mon close,XGBoost forecast,0.387,0.179,1.634,-0.109,4,1.239,0.036
+Validation,Mon close,Logit forecast,0.391,0.18,1.648,-0.109,2,0.617,0.024
+Validation,Mon close,Rule: SPY below 40w MA,0.391,0.18,1.648,-0.109,2,0.617,0.024
+Validation,Mon close,Rule: 13w vol above cut-off,0.408,0.185,1.673,-0.109,0,0.0,0.0
+Validation,Mon close,Static 50% SPY + 50% Aggr.,0.408,0.185,1.673,-0.109,0,,
+Validation,Mon close,Static 50/25/25 blend,0.298,0.135,1.618,-0.088,0,,
+Validation,Mon close,SPY buy-and-hold,0.24,0.129,1.335,-0.089,0,,
+Test,Fri close,XGBoost forecast,0.227,0.161,1.107,-0.109,4,1.268,0.155
+Test,Fri close,Logit forecast,0.244,0.166,1.166,-0.113,4,1.249,0.119
+Test,Fri close,Rule: SPY below 40w MA,0.169,0.15,0.855,-0.12,4,1.193,0.143
+Test,Fri close,Rule: 13w vol above cut-off,0.104,0.168,0.44,-0.195,2,0.548,0.155
+Test,Fri close,Static 50% SPY + 50% Aggr.,0.238,0.204,0.959,-0.195,0,,
+Test,Fri close,Static 50/25/25 blend,0.193,0.142,1.042,-0.125,0,,
+Test,Fri close,SPY buy-and-hold,0.171,0.156,0.839,-0.155,0,,
+Test,Mon close,XGBoost forecast,0.208,0.16,1.017,-0.108,4,1.255,0.155
+Test,Mon close,Logit forecast,0.231,0.166,1.097,-0.137,4,1.235,0.119
+Test,Mon close,Rule: SPY below 40w MA,0.168,0.155,0.83,-0.124,4,1.199,0.143
+Test,Mon close,Rule: 13w vol above cut-off,0.108,0.179,0.447,-0.183,2,0.555,0.155
+Test,Mon close,Static 50% SPY + 50% Aggr.,0.227,0.215,0.877,-0.183,0,,
+Test,Mon close,Static 50/25/25 blend,0.182,0.154,0.909,-0.126,0,,
+Test,Mon close,SPY buy-and-hold,0.165,0.165,0.772,-0.153,0,,

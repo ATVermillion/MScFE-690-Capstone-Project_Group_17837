@@ -1,0 +1,7 @@
+strategy,Ann. return,Ann. vol,Sharpe,Max drawdown,Switches,"Turnover (ann., one-way)",% defensive
+XGBoost walk-forward,0.244,0.184,1.132,-0.38,47,3.057,0.179
+Rule: SPY below 40w MA,0.255,0.182,1.188,-0.313,19,1.276,0.191
+Persistence signal,0.244,0.183,1.134,-0.315,43,2.737,0.174
+Static 50% SPY + 50% Aggr.,0.289,0.227,1.113,-0.362,0,,
+Static 50/25/25 blend,0.222,0.177,1.069,-0.329,0,,
+SPY buy-and-hold,0.172,0.181,0.817,-0.318,0,,

@@ -1,0 +1,5 @@
+strategy,Ann. return,Ann. vol,Sharpe,Max drawdown,"Turnover (ann., one-way)",% defensive
+Entry/exit models (chosen each year),0.213,0.186,0.985,-0.413,2.541,0.164
+XGBoost (causal labels),0.214,0.186,0.99,-0.421,2.643,0.161
+Persistence (causal labels),0.237,0.183,1.104,-0.372,2.369,0.179
+Rule: SPY below 40w MA,0.255,0.182,1.188,-0.313,1.276,0.191

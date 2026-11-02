@@ -1,0 +1,12 @@
+,Autoencoder: oracle,40-week rule,Autoencoder: smoothed XGBoost,Slow/fast blend,Autoencoder: persistence,Autoencoder: XGBoost
+GFC crash Oct 2007-Mar 2009,50.081,33.144,32.138,27.584,31.44,31.185
+Rebound Mar-Dec 2009,-11.275,-15.587,-22.011,-11.782,-19.234,-24.578
+Euro crisis Jul-Oct 2011,17.217,-0.353,2.597,4.377,-1.434,1.213
+Aug 2015-Feb 2016,15.417,3.122,1.237,8.651,0.421,1.342
+Q4 2018,11.981,0.015,3.773,1.662,-1.145,3.773
+COVID crash Feb-Mar 2020,19.383,13.153,13.153,13.153,13.153,13.153
+COVID rebound Apr-Aug 2020,-6.23,-10.913,-12.832,-11.137,-17.209,-19.16
+2022 bear Jan-Oct,6.434,-10.581,-11.207,-8.797,-11.421,-13.672
+Tariff shock Feb-Apr 2025,6.564,4.865,4.688,6.829,4.042,4.865
+Rebound Apr-Jul 2025,-2.187,-8.018,-6.548,-6.262,-4.506,-8.018
+All other weeks,39.032,-30.617,-23.352,-56.123,-25.634,-30.051

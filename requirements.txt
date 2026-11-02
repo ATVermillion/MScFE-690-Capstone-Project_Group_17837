@@ -1,0 +1,13 @@
+# Tested with Python 3.13 and the versions in brackets
+numpy>=1.26          # (2.5.3)
+pandas>=2.2          # (3.0.5)
+scipy>=1.11          # (1.18.1)
+scikit-learn>=1.4    # (1.9.1)
+matplotlib>=3.8      # (3.11.2)
+torch>=2.2           # (2.15.0)
+xgboost>=2.0         # (3.4.1)
+hmmlearn>=0.3        # (0.3.3)
+yfinance>=0.2.40     # (1.7.0) only needed to refresh the data snapshots
+requests>=2.31       # (2.34.2) only needed to refresh the data snapshots
+pyyaml>=6.0
+jupyter

@@ -1,0 +1,7 @@
+,10% worst weeks for the aggressive sleeve,10% best weeks,middle 80%,TOTAL
+Oracle,67.622,-42.527,14.238,39.333
+40-week rule,43.866,-75.122,7.881,-23.375
+Smoothed XGBoost (6.15),35.172,-61.458,-4.11,-30.396
+Slow/fast blend,49.8,-80.922,-6.491,-37.612
+Persistence,38.13,-73.662,-1.047,-36.579
+XGBoost (main),30.416,-76.463,-3.966,-50.012

@@ -1,0 +1,11 @@
+split,model,BalAcc,Precision,Recall,Signals Stressed,Actual Stressed,Weeks differing from regime_now
+Validation,Persistence (0/1),0.654,0.333,0.333,3,3,0
+Validation,Logit (unweighted),0.66,0.5,0.333,2,3,1
+Validation,XGBoost,0.654,0.333,0.333,3,3,2
+Validation,LSTM,0.488,0.0,0.0,2,3,3
+Validation,Rule: SPY below 40w MA,0.66,0.5,0.333,2,3,1
+Test,Persistence (0/1),0.813,0.667,0.667,9,9,0
+Test,Logit (unweighted),0.869,0.7,0.778,10,9,1
+Test,XGBoost,0.973,0.692,1.0,13,9,4
+Test,LSTM,0.862,0.636,0.778,11,9,2
+Test,Rule: SPY below 40w MA,0.793,0.5,0.667,12,9,5

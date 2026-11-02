@@ -1,0 +1,9 @@
+,Ann. return,Ann. vol,Sharpe,Max drawdown,Switches,% weeks defensive
+Logit forecast (thr 0.4),0.2287,0.1654,1.0917,-0.1299,6.0,0.1071
+XGBoost forecast (thr 0.4),0.2243,0.1604,1.098,-0.1113,4.0,0.131
+Persistence signal,0.2287,0.1654,1.0917,-0.1299,6.0,0.1071
+Oracle (perfect foresight),0.2792,0.166,1.3317,-0.105,6.0,0.1071
+SPY buy-and-hold,0.1707,0.1557,0.8394,-0.1552,0.0,
+Static 50% SPY + 50% Aggr.,0.2381,0.2034,0.9602,-0.1961,0.0,
+Static 50% SPY + 50% Def.,0.1517,0.1032,1.0421,-0.0855,0.0,
+Static 50/25/25 blend,0.1971,0.1449,1.0446,-0.1307,0.0,

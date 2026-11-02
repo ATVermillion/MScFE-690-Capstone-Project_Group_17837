@@ -1,0 +1,4 @@
+labeller,% Stressed,Exp. Stressed spell (wks),Entries,Exits,AUC XGBoost,AUC smoothed,AUC persistence,AUC entry (now Trending),AUC exit (now Stressed),ARI vs autoencoder
+Autoencoder,0.224,4.875,63,64,0.947,0.934,0.869,0.837,0.844,1.0
+k-means,0.257,6.755,53,53,0.954,0.94,0.9,0.809,0.789,0.805
+Return-based,0.267,5.096,75,73,0.944,0.927,0.864,0.857,0.785,0.73

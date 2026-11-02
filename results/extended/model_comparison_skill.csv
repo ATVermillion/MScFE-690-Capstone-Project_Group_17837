@@ -1,0 +1,15 @@
+labels,model,AUC,Brier,AUC entry (now Trending),AUC exit (now Stressed)
+Autoencoder,XGBoost,0.947,0.068,0.837,0.844
+Autoencoder,XGBoost (smoothed),0.934,0.076,0.81,0.808
+Autoencoder,Logistic,0.953,0.062,0.852,0.868
+Autoencoder,Logistic (smoothed),0.935,0.075,0.815,0.812
+Autoencoder,LSTM,0.941,0.072,0.833,0.788
+Autoencoder,LSTM (smoothed),0.923,0.082,0.794,0.782
+Autoencoder,Persistence,0.869,0.091,0.5,0.5
+Return-based,XGBoost,0.944,0.081,0.857,0.785
+Return-based,XGBoost (smoothed),0.927,0.09,0.807,0.785
+Return-based,Logistic,0.95,0.076,0.864,0.819
+Return-based,Logistic (smoothed),0.932,0.088,0.819,0.793
+Return-based,LSTM,0.934,0.085,0.832,0.733
+Return-based,LSTM (smoothed),0.914,0.097,0.778,0.761
+Return-based,Persistence,0.864,0.106,0.5,0.5

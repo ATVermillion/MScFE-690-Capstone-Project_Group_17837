@@ -1,0 +1,5 @@
+model,AUC (all weeks),Brier,AUC | now Trending (entry),AUC | now Stressed (exit)
+XGBoost,0.908,0.087,0.833,0.596
+Persistence (0/1),0.845,0.092,0.5,0.5
+Persistence (transition prob.),0.813,0.08,0.376,0.443
+"Share Stressed, last 4 wks",0.885,0.084,0.675,0.631

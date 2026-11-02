@@ -1,0 +1,7 @@
+vs,weeks,n,XGBoost right,mean payoff %/wk,total payoff %,95% CI mean (all)
+Persistence (0/1),all,19,32%,-0.707,-13.4,"[-1.52, +0.21]"
+Persistence (0/1),XGBoost defensive,6,33%,-0.786,-4.7,
+Persistence (0/1),XGBoost aggressive,13,31%,-0.67,-8.7,
+Rule: SPY below 40w MA,all,36,33%,-0.74,-26.6,"[-1.34, -0.05]"
+Rule: SPY below 40w MA,XGBoost defensive,12,25%,-1.295,-15.5,
+Rule: SPY below 40w MA,XGBoost aggressive,24,38%,-0.462,-11.1,

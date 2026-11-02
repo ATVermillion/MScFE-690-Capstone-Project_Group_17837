@@ -1,0 +1,5 @@
+now,next,weeks,mean_def_minus_aggr,defensive_wins
+Stressed,Stressed,53,0.2679,0.6415
+Stressed,Trending,19,-4.5976,0.1053
+Trending,Stressed,18,3.5816,0.8333
+Trending,Trending,313,-0.7058,0.4089

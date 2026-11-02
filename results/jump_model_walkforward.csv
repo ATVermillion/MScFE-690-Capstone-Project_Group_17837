@@ -1,0 +1,5 @@
+strategy,Ann. return,Ann. vol,Sharpe,Max drawdown,"Turnover (ann., one-way)",Switches,% defensive
+Jump model + smoothed XGBoost,0.2491,0.1908,1.1183,-0.3416,0.7641,11,0.1464
+Jump-model state (persistence),0.2219,0.1813,1.0455,-0.3613,2.1554,33,0.206
+XGBoost (causal labels),0.2139,0.1856,0.9904,-0.4208,2.6427,41,0.1613
+Rule: SPY below 40w MA,0.2549,0.1822,1.1877,-0.3127,1.276,19,0.1911

@@ -1,0 +1,50 @@
+# Experiment settings. The notebooks define the same values in their first cells; this file documents them.
+
+final_design:                      # Capstone_Extended_Sample.ipynb
+  data:
+    snapshot: "data/snapshot_long"
+    start_date: "1993-01-01"
+    end_date: "2026-10-01"         # exclusive; last full week ends 2026-09-25
+    frequency: "W-FRI"             # weekly decisions at Friday close
+  features: ["ret_1w", "ret_4w", "ret_13w", "rvol_1w", "rvol_13w", "dist_ma40w", "drawdown_52w", "volume_ratio"]
+  labels:
+    method: "k-means, k = 2, standardised"
+    label_features: ["ret_1w", "ret_4w", "ret_13w", "dist_ma40w", "drawdown_52w"]   # return and trend only
+    stressed_cluster: "highest of -ret_13w - dist_ma40w - drawdown_52w (cluster means)"
+    refit: "every January, on all earlier weeks from 1994"
+  forecast:
+    model: "XGBoost"
+    params: {n_estimators: 200, max_depth: 2, learning_rate: 0.05, subsample: 0.8, colsample_bytree: 0.8, reg_lambda: 1.0}
+    inputs: "8 features + regime_now + stress_4w"
+    smoothing_halflife_weeks: 2    # chosen by inner walk-forward in Develop section 6.15, fixed here
+    refit: "every January"
+  decision:
+    threshold: "break-even = gap_trend / (gap_trend + gap_stress) from earlier payoffs; 0.5 if undefined"
+  portfolio:
+    core: "SPY"
+    core_weight: 0.50
+    satellite_weight: 0.50
+    aggressive_sleeve: "top-4 sector ETFs by 3-year daily beta to SPY, re-selected each January"
+    defensive_sleeve: ["TLT", "GLD"]                  # setup C: 3-month T-bills
+    rebalance_band: 0.10
+    transaction_cost_bps: 5
+  evaluation:
+    walk_forward_trading: "2006-2026 (setups A, B); 2001-2026 (setup C)"
+    benchmarks: ["40-week MA rule", "persistence", "oracle", "slow/fast blend", "static 50/50", "static 50/25/25", "SPY"]
+    sharpe: "excess of 3-month T-bill"
+
+original_study:                    # Capstone_Project_Develop.ipynb
+  data: {snapshot: "data/snapshot", start_date: "2015-01-01", end_date: "2026-10-01", frequency: "W-FRI"}
+  universe:
+    core: "SPY"
+    aggressive_sleeve: ["NVDA", "AMD", "AVGO", "TSLA", "AMZN", "META", "NFLX", "CRM", "GS", "CAT"]   # hand-picked
+    defensive_sleeve: ["TLT", "GLD"]
+  regimes:
+    autoencoder: {layers: "8-6-3-6-8", lr: 0.001, weight_decay: 0.00001, max_epochs: 1000, patience: 40,
+                  early_stopping: "random 15% of the fit weeks"}
+    n_clusters: 2
+  split: {train: 0.70, validation: 0.15, test: 0.15}
+  walk_forward: "causal, labeller and XGBoost refit each January 2019-2026"
+  lstm: {lookback_weeks: 8, hidden: 16, lr: 0.001, weight_decay: 0.0001, patience: 40}
+
+random_seed: 42
